@@ -1,0 +1,61 @@
+/*===========================
+site basic variable: ;
+===========================*/
+/*===========================*/
+p.templ {
+  margin: 100px;
+  color: black; }
+
+ul li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline; }
+
+h1 {
+  color: white;
+  -webkit-animation: sample 1s linear 0.2s infinite normal;
+  -moz-animation: sample 1s linear 0.2s infinite normal;
+  -o-animation: sample 1s linear 0.2s infinite normal;
+  animation: sample 1s linear 0.2s infinite normal;
+  animation: sample 1s linear 0.2s infinite normal; }
+
+@-webkit-keyframes sample {
+  0% {
+    background-color: green; }
+
+  100% {
+    background-color: red; } }
+
+@-moz-keyframes sample {
+  0% {
+    background-color: green; }
+
+  100% {
+    background-color: red; } }
+
+@-ms-keyframes sample {
+  0% {
+    background-color: green; }
+
+  100% {
+    background-color: red; } }
+
+@-o-keyframes sample {
+  0% {
+    background-color: green; }
+
+  100% {
+    background-color: red; } }
+
+@keyframes sample {
+  0% {
+    background-color: green; }
+
+  100% {
+    background-color: red; } }
+
+h1:hover {
+  margin-left: 100px; }

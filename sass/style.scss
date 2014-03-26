@@ -1,0 +1,55 @@
+@import "../sass/mixins.scss";
+/*===========================
+site basic variable: ;
+===========================*/
+$basicColor:#fff;
+$basicDuration:1s;
+/*===========================*/
+p.templ {
+	margin:100px;
+	color:black;
+}
+
+ul li {
+	@include inline-block;
+}
+
+h1{
+	color: $basicColor;
+	@include animation(sample,$basicDuration,linear,0.2s,infinite,normal);
+}
+
+@-webkit-keyframes sample {
+	0% { background-color: green;
+	}
+	100% { background-color: red;
+	}
+}
+@-moz-keyframes sample {
+	0% { background-color: green;
+	}
+	100% { background-color: red;
+	}
+}
+@-ms-keyframes sample {
+	0% { background-color: green;
+	}
+	100% { background-color: red;
+	}
+}
+@-o-keyframes sample {
+	0% { background-color: green;
+	}
+	100% { background-color: red;
+	}
+}
+@keyframes sample {
+	0% { background-color: green;
+	}
+	100% { background-color: red;
+	}
+}
+
+h1:hover {
+	margin-left:100px;
+}
